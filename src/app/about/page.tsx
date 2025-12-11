@@ -35,7 +35,7 @@ function FounderProfilesPage() {
               <div className="flex min-w-[320px] grow shrink-0 basis-0 flex-col items-start gap-6 rounded-xl border border-solid border-neutral-200 bg-white px-8 py-8 shadow-lg">
                 <img
                   className="h-64 w-full flex-none rounded-lg object-cover"
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+                  src="/victor-profile.jpg"
                   alt="Portrait of Victor C. Chabunda"
                 />
                 <div className="flex w-full flex-col items-start gap-3">
@@ -44,14 +44,14 @@ function FounderProfilesPage() {
                       Victor C. Chabunda
                     </span>
                     <span className="w-full font-['Inter'] text-[18px] font-[600] leading-[24px] text-brand-600 -tracking-[0.01em]">
-                      Founder &amp; Lead Developer
+                      Founder &amp; Lead Architect
                     </span>
                     <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-subtext-color -tracking-[0.01em]">
                       23 • Lusaka, Zambia
                     </span>
                   </div>
                   <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-default-font -tracking-[0.01em]">
-                    Computer Science student at the University of Zambia and systems thinker focused on education technology.
+                    Systems architect and Software Engineer obsessed with reliable, scalable tools that keep people prepared—building end-to-end services and front-ends that stay fast, stable, and easy to evolve.
                   </span>
                 </div>
                 <div className="flex w-full flex-col items-start gap-4">
@@ -92,7 +92,7 @@ function FounderProfilesPage() {
               <div className="flex min-w-[320px] grow shrink-0 basis-0 flex-col items-start gap-6 rounded-xl border border-solid border-neutral-200 bg-white px-8 py-8 shadow-lg">
                 <img
                   className="h-64 w-full flex-none rounded-lg object-cover"
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop"
+                  src="/francis-profile.jpg"
                   alt="Portrait of Francis Kalunga"
                 />
                 <div className="flex w-full flex-col items-start gap-3">
