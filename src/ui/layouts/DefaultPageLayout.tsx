@@ -6,6 +6,8 @@
  */
 
 import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { TopbarWithRightNav } from "../components/TopbarWithRightNav";
 import * as SubframeUtils from "../utils";
 
@@ -22,6 +24,10 @@ const DefaultPageLayoutRoot = React.forwardRef<
   { children, className, ...otherProps }: DefaultPageLayoutRootProps,
   ref
 ) {
+  const pathname = usePathname();
+  const isHome = pathname === "/" || pathname === "";
+  const isAbout = pathname === "/about";
+
   return (
     <div
       className={SubframeUtils.twClassNames(
@@ -33,16 +39,26 @@ const DefaultPageLayoutRoot = React.forwardRef<
     >
       <TopbarWithRightNav
         leftSlot={
-          <img
-            className="h-6 grow shrink-0 basis-0 object-cover"
-            src="https://res.cloudinary.com/subframe/image/upload/v1765442824/uploads/17280/btzbi8c1eqvekongifbl.png"
-          />
+          <Link href="/" className="flex items-center gap-2">
+            <img
+              className="h-6 grow shrink-0 basis-0 object-cover"
+              src="https://res.cloudinary.com/subframe/image/upload/v1765442824/uploads/17280/btzbi8c1eqvekongifbl.png"
+              alt="Lumuno"
+            />
+          </Link>
         }
         rightSlot={
           <div className="flex items-center justify-end">
-            <TopbarWithRightNav.NavItem selected={true}>
-              About
-            </TopbarWithRightNav.NavItem>
+            <Link href="/" aria-label="Home">
+              <TopbarWithRightNav.NavItem selected={isHome}>
+                Home
+              </TopbarWithRightNav.NavItem>
+            </Link>
+            <Link href="/about" aria-label="About">
+              <TopbarWithRightNav.NavItem selected={isAbout}>
+                About
+              </TopbarWithRightNav.NavItem>
+            </Link>
           </div>
         }
       />
