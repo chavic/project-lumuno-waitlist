@@ -36,6 +36,7 @@ function FounderProfilesPage() {
                 <img
                   className="h-64 w-full flex-none rounded-lg object-cover"
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+                  alt="Portrait of Victor C. Chabunda"
                 />
                 <div className="flex w-full flex-col items-start gap-3">
                   <div className="flex w-full flex-col items-start gap-1">
@@ -92,6 +93,7 @@ function FounderProfilesPage() {
                 <img
                   className="h-64 w-full flex-none rounded-lg object-cover"
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop"
+                  alt="Portrait of Sarah Mwanza"
                 />
                 <div className="flex w-full flex-col items-start gap-3">
                   <div className="flex w-full flex-col items-start gap-1">

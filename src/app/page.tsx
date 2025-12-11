@@ -203,7 +203,7 @@ function LearningInsightsLanding() {
                   <div className="flex items-start gap-3">
                     <FeatherAlertCircle className="text-body font-body text-neutral-400 mt-1" />
                     <span className="grow shrink-0 basis-0 font-['Inter'] text-[16px] font-[400] leading-[24px] text-default-font -tracking-[0.01em]">
-                      See hours of "studying" but not if anything is sticking
+                      See hours of &quot;studying&quot; but not if anything is sticking
                     </span>
                   </div>
                   <div className="flex items-start gap-3">
@@ -287,11 +287,11 @@ function LearningInsightsLanding() {
                   </span>
                 </div>
                 <span className="w-full font-['Inter'] text-[18px] font-[400] leading-[24px] text-subtext-color -tracking-[0.01em]">
-                  Instead of "work harder" or "revise everything", Lumuno is about:
+                  Instead of &quot;work harder&quot; or &quot;revise everything&quot;, Lumuno is about:
                 </span>
                 <div className="flex w-full flex-col items-start gap-3 rounded-lg border-l-4 border-solid border-brand-600 bg-brand-50 px-6 py-4">
                   <span className="w-full font-['Inter'] text-[18px] font-[500] leading-[28px] text-default-font -tracking-[0.01em]">
-                    "These are the topics that will hurt you most if you ignore them. Start here."
+                    &quot;These are the topics that will hurt you most if you ignore them. Start here.&quot;
                   </span>
                 </div>
               </div>
@@ -498,7 +498,7 @@ function LearningInsightsLanding() {
               trigger={
                 <div className="flex w-full items-center gap-2 px-4 py-4">
                   <span className="grow shrink-0 basis-0 font-['Inter'] text-[20px] font-[600] leading-[28px] text-default-font -tracking-[0.015em]">
-                    Is Lumuno "just AI"?
+                    Is Lumuno &quot;just AI&quot;?
                   </span>
                   <Accordion.Chevron />
                 </div>
