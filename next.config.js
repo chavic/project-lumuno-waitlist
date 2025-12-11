@@ -16,8 +16,7 @@ const nextConfig = {
   output: 'export',
   // Serve from the GitHub Pages project subpath.
   basePath: basePath || undefined,
-  // Use basePath for GitHub Pages; fall back to relative for local file:// opens.
-  assetPrefix: basePath || './',
+  assetPrefix: basePath || undefined,
   // Keep URLs compatible with static hosting (e.g. /about/ -> about/index.html).
   trailingSlash: true,
   // Disable image optimization for static export safety.

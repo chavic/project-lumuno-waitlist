@@ -84,7 +84,7 @@ function FounderProfilesPage() {
                       size="small"
                       onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
                     >
-                      chavic.github.io
+                      Personal Site
                     </LinkButton>
                   </div>
                 </div>
@@ -93,55 +93,48 @@ function FounderProfilesPage() {
                 <img
                   className="h-64 w-full flex-none rounded-lg object-cover"
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop"
-                  alt="Portrait of Sarah Mwanza"
+                  alt="Portrait of Francis Kalunga"
                 />
                 <div className="flex w-full flex-col items-start gap-3">
                   <div className="flex w-full flex-col items-start gap-1">
                     <span className="w-full font-['Inter'] text-[28px] font-[700] leading-[36px] text-default-font -tracking-[0.025em]">
-                      Sarah Mwanza
+                      Francis Kalunga
                     </span>
                     <span className="w-full font-['Inter'] text-[18px] font-[600] leading-[24px] text-brand-600 -tracking-[0.01em]">
-                      Co-founder &amp; Systems Designer
+                      Software Engineer &amp; Systems Builder
                     </span>
                     <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-subtext-color -tracking-[0.01em]">
-                      24 • Kitwe, Zambia
+                      Lusaka, Zambia
                     </span>
                   </div>
                   <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-default-font -tracking-[0.01em]">
-                    Education systems designer and advocate for learning equity, bringing human-centered design to educational technology.
+                    CS undergrad and versatile developer with experience across mobile, web, and backend systems; HHIF 2024 Cohort Award Winner and long-time student leader.
                   </span>
                 </div>
                 <div className="flex w-full flex-col items-start gap-4">
                   <span className="w-full font-['Inter'] text-[18px] font-[600] leading-[24px] text-default-font -tracking-[0.01em]">
-                    The Gap She Bridges:
+                    The Gap He Bridges:
                   </span>
                   <div className="flex w-full flex-col items-start gap-3 rounded-lg border-l-4 border-solid border-brand-600 bg-brand-50 px-6 py-4">
                     <span className="w-full font-['Inter'] text-[16px] font-[500] leading-[24px] text-default-font -tracking-[0.01em]">
-                      &quot;We build tools for learners, but rarely ask them what actually helps. The best learning systems aren&#39;t just smart—they&#39;re designed with deep empathy for the people using them.&quot;
+                      &quot;People often have the ambition and vision to create change, but lack the systems, tools, or clarity to make it real. I build technology that turns complexity into something usable, reliable, and empowering.&quot;
                     </span>
                   </div>
                   <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-default-font -tracking-[0.01em]">
-                    Sarah spent years working with teachers and students in under-resourced schools, understanding that the right design can make powerful learning experiences accessible to everyone, not just the privileged few.
+                    From student council president to leading builds for events, tourism, marketplaces, and assistants, Francis pairs leadership with engineering rigor to deliver software that scales and serves real communities.
                   </span>
                 </div>
                 <div className="flex w-full flex-col items-start gap-3">
                   <span className="w-full font-['Inter'] text-[14px] font-[500] leading-[20px] text-default-font -tracking-[0.01em]">
-                    Connect with Sarah:
+                    Connect with Francis:
                   </span>
                   <div className="flex flex-wrap items-center gap-2">
                     <LinkButton
                       variant="brand"
                       size="small"
-                      onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
+                      onClick={() => window.open("https://www.linkedin.com/in/kalfranc", "_blank")}
                     >
                       LinkedIn
-                    </LinkButton>
-                    <LinkButton
-                      variant="brand"
-                      size="small"
-                      onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
-                    >
-                      Portfolio
                     </LinkButton>
                   </div>
                 </div>
