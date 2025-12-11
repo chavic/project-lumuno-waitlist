@@ -101,7 +101,7 @@ function FounderProfilesPage() {
                       Francis Kalunga
                     </span>
                     <span className="w-full font-['Inter'] text-[18px] font-[600] leading-[24px] text-brand-600 -tracking-[0.01em]">
-                      Software Engineer &amp; Systems Builder
+                      Co-founder &amp; Software Engineer
                     </span>
                     <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-subtext-color -tracking-[0.01em]">
                       Lusaka, Zambia
