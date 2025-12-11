@@ -51,7 +51,7 @@ function FounderProfilesPage() {
                     </span>
                   </div>
                   <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-default-font -tracking-[0.01em]">
-                    Systems architect and Software Engineer obsessed with reliable, scalable tools that keep people prepared—building end-to-end services and front-ends that stay fast, stable, and easy to evolve.
+                    Systems architect and software engineer, Victor leads Lumuno’s product direction and technical architecture, sitting at the intersection of systems design, AI, and learning science to shape how Lumuno understands a student’s knowledge, attention, and progress.
                   </span>
                 </div>
                 <div className="flex w-full flex-col items-start gap-4">
