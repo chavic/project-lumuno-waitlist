@@ -47,7 +47,7 @@ function FounderProfilesPage() {
                       Founder &amp; Lead Architect
                     </span>
                     <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-subtext-color -tracking-[0.01em]">
-                      23 • Lusaka, Zambia
+                      Lusaka, Zambia
                     </span>
                   </div>
                   <span className="w-full font-['Inter'] text-[16px] font-[400] leading-[24px] text-default-font -tracking-[0.01em]">
