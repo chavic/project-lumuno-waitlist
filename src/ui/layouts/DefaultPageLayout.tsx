@@ -24,9 +24,13 @@ const DefaultPageLayoutRoot = React.forwardRef<
   { children, className, ...otherProps }: DefaultPageLayoutRootProps,
   ref
 ) {
-  const pathname = usePathname();
+  const rawPath = usePathname() || "";
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const pathname = rawPath.startsWith(basePath)
+    ? rawPath.slice(basePath.length) || "/"
+    : rawPath || "/";
   const isHome = pathname === "/" || pathname === "";
-  const isAbout = pathname === "/about";
+  const isAbout = pathname === "/about" || pathname === "/about/";
 
   return (
     <div
