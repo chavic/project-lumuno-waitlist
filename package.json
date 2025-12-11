@@ -8,7 +8,7 @@
     "export": "next build",
     "build:gh": "GITHUB_PAGES=true NEXT_PUBLIC_GH_PAGES=true NEXT_PUBLIC_BASE_PATH=/project-lumuno-waitlist next build && touch out/.nojekyll",
     "build:prod": "NEXT_PUBLIC_BASE_PATH= next build && touch out/.nojekyll",
-    "deploy": "npm run build:gh && npx gh-pages -d out -b gh-pages",
+    "deploy": "npm run build:gh && npx gh-pages -d out -b gh-pages --dotfiles",
     "start": "next start",
     "lint": "next lint"
   },
