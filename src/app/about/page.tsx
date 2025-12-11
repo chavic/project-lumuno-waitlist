@@ -7,6 +7,9 @@ import { DefaultPageLayout } from "@/ui/layouts/DefaultPageLayout";
 import { FeatherHeart, FeatherSend } from "@subframe/core";
 
 function FounderProfilesPage() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const withBase = (path: string) => `${basePath}${path}`;
+
   return (
     <DefaultPageLayout>
       <div className="flex w-full cursor-pointer flex-col items-center bg-default-background">
@@ -35,7 +38,7 @@ function FounderProfilesPage() {
               <div className="flex min-w-[320px] grow shrink-0 basis-0 flex-col items-start gap-6 rounded-xl border border-solid border-neutral-200 bg-white px-8 py-8 shadow-lg">
                 <img
                   className="h-64 w-full flex-none rounded-lg object-cover"
-                  src="/victor-profile.jpg"
+                  src={withBase("/victor-profile.jpg")}
                   alt="Portrait of Victor C. Chabunda"
                 />
                 <div className="flex w-full flex-col items-start gap-3">
@@ -92,7 +95,7 @@ function FounderProfilesPage() {
               <div className="flex min-w-[320px] grow shrink-0 basis-0 flex-col items-start gap-6 rounded-xl border border-solid border-neutral-200 bg-white px-8 py-8 shadow-lg">
                 <img
                   className="h-64 w-full flex-none rounded-lg object-cover"
-                  src="/francis-profile.jpg"
+                  src={withBase("/francis-profile.jpg")}
                   alt="Portrait of Francis Kalunga"
                 />
                 <div className="flex w-full flex-col items-start gap-3">
