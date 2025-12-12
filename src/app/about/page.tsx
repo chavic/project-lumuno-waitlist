@@ -9,6 +9,8 @@ import { FeatherHeart, FeatherSend } from "@subframe/core";
 function FounderProfilesPage() {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const withBase = (path: string) => `${basePath}${path}`;
+  const openWaitlist = () => window.open("https://tally.so/r/pbr9XB", "_blank", "noopener,noreferrer");
+  const openFunders = () => window.open("https://tally.so/r/q4Lz7g", "_blank", "noopener,noreferrer");
 
   return (
     <DefaultPageLayout>
@@ -204,13 +206,13 @@ function FounderProfilesPage() {
                 Whether you&#39;re a learner, teacher, school, parent, or funder—your voice matters in shaping what Lumuno becomes.
               </span>
               <div className="flex items-center justify-center gap-4 pt-2">
-                <Button variant="inverse" size="large" onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}>
+                <Button variant="inverse" size="large" onClick={openWaitlist}>
                   Join the waitlist
                 </Button>
                 <Button
                   variant="neutral-primary"
                   size="large"
-                  onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
+                  onClick={openFunders}
                 >
                   Become a Funder
                 </Button>

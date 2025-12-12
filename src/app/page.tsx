@@ -22,6 +22,9 @@ import {
 } from "@subframe/core";
 
 function LearningInsightsLanding() {
+  const openWaitlist = () => window.open("https://tally.so/r/pbr9XB", "_blank", "noopener,noreferrer");
+  const openFunders = () => window.open("https://tally.so/r/q4Lz7g", "_blank", "noopener,noreferrer");
+
   return (
     <DefaultPageLayout>
       <div className="container max-w-none flex w-full cursor-pointer flex-col items-center bg-default-background py-2">
@@ -37,14 +40,14 @@ function LearningInsightsLanding() {
               Lumuno is a new kind of learning system for learners. Instead of drowning you in more notes and links, it&#39;s focused on the one thing that changes outcomes: the right kind of attention—timely guidance, clear priorities, and honest feedback on where you stand.
             </span>
             <div className="flex items-center justify-center gap-4 pt-4 mobile:h-auto mobile:w-full mobile:flex-none mobile:flex-col mobile:flex-nowrap mobile:gap-3 mobile:px-0 mobile:pt-2 mobile:pb-0">
-              <Button className="mobile:w-full" size="large" onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}>
+              <Button className="mobile:w-full" size="large" onClick={openWaitlist}>
                 Join the Waitlist
               </Button>
               <Button
                 className="mobile:w-full"
                 variant="neutral-primary"
                 size="large"
-                onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
+                onClick={openFunders}
               >
                 Become a Funder
               </Button>
@@ -547,12 +550,22 @@ function LearningInsightsLanding() {
                 <span className="w-full font-['Inter'] text-[14px] font-[500] leading-[20px] text-default-font -tracking-[0.01em]">
                   Get Started
                 </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
+                <a
+                  className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                  href="https://tally.so/r/pbr9XB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Join Waitlist
-                </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
+                </a>
+                <a
+                  className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                  href="https://tally.so/r/q4Lz7g"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   For Funders
-                </span>
+                </a>
               </div>
               <div className="flex min-w-[144px] grow shrink-0 basis-0 flex-col items-start gap-4 mobile:h-auto mobile:w-full mobile:min-w-[0px] mobile:flex-none mobile:flex-col mobile:flex-nowrap mobile:gap-3">
                 <span className="w-full font-['Inter'] text-[14px] font-[500] leading-[20px] text-default-font -tracking-[0.01em]">
