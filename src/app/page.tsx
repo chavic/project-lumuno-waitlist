@@ -571,12 +571,22 @@ function LearningInsightsLanding() {
                 <span className="w-full font-['Inter'] text-[14px] font-[500] leading-[20px] text-default-font -tracking-[0.01em]">
                   Connect
                 </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
+                <a
+                  className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                  href="https://www.linkedin.com/in/victor-chabunda-a63126201/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   LinkedIn
-                </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
+                </a>
+                <a
+                  className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                  href="https://chavic.github.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Personal Site
-                </span>
+                </a>
               </div>
             </div>
           </div>

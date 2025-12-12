@@ -80,14 +80,14 @@ function FounderProfilesPage() {
                     <LinkButton
                       variant="brand"
                       size="small"
-                      onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
+                      onClick={() => window.open("https://www.linkedin.com/in/victor-chabunda-a63126201/", "_blank", "noopener,noreferrer")}
                     >
                       LinkedIn
                     </LinkButton>
                     <LinkButton
                       variant="brand"
                       size="small"
-                      onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
+                      onClick={() => window.open("https://chavic.github.io", "_blank", "noopener,noreferrer")}
                     >
                       Personal Site
                     </LinkButton>
@@ -237,23 +237,43 @@ function FounderProfilesPage() {
                 <span className="w-full font-['Inter'] text-[14px] font-[500] leading-[20px] text-default-font -tracking-[0.01em]">
                   Get Started
                 </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
-                  Join Waitlist
-                </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
-                  For Funders
-                </span>
+                  <a
+                    className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                    href="https://tally.so/r/pbr9XB"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Join Waitlist
+                  </a>
+                  <a
+                    className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                    href="https://tally.so/r/q4Lz7g"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    For Funders
+                  </a>
               </div>
               <div className="flex min-w-[144px] grow shrink-0 basis-0 flex-col items-start gap-4">
                 <span className="w-full font-['Inter'] text-[14px] font-[500] leading-[20px] text-default-font -tracking-[0.01em]">
                   Connect
                 </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
-                  LinkedIn
-                </span>
-                <span className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em]">
-                  Personal Site
-                </span>
+                  <a
+                    className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                    href="https://www.linkedin.com/in/victor-chabunda-a63126201/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
+                  </a>
+                  <a
+                    className="font-['Inter'] text-[14px] font-[400] leading-[20px] text-subtext-color -tracking-[0.01em] hover:text-brand-700"
+                    href="https://chavic.github.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Personal Site
+                  </a>
               </div>
             </div>
           </div>
